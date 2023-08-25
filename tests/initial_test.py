@@ -14,6 +14,6 @@ def test_multiplier():
     df = pd.DataFrame(data)
     times = 2
     obtained = multiplier(df, times=times)
-    obtained_values = obtained.loc["values"]
+    obtained_values = obtained["value"].values
     expected_values = [6, 4, 2]
-    assert obtained_values == expected_values
+    assert (obtained_values == expected_values).all()
