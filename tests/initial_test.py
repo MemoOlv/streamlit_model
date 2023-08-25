@@ -1,12 +1,6 @@
 import pandas as pd
 
-from model import nothing, multiplier
-
-
-def tests_nothing():
-    obtained = nothing()
-    expected = "nothing"
-    assert obtained == expected
+from model import multiplier
 
 
 def test_multiplier():
