@@ -9,7 +9,8 @@ classifiers = [ "License :: OSI Approved :: GNU General Public License v3 or lat
 description-file = "README.md"
 module = "model"
 requires = [
-    "pandas",
     "matplotlib",
+    "pandas",
+    "streamlit"
 ]
 requires-python=">=3.9"
