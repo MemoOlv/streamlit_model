@@ -1,4 +1,4 @@
-import panda as pd
+import pandas as pd
 
 from model import nothing, multiplier
 
